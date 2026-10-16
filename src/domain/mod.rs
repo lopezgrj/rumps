@@ -1,0 +1,35 @@
+// Domain module
+
+pub mod patient;
+// pub mod race;
+// pub mod ethnicity;
+// pub mod visit;
+// pub mod appointment;
+// pub mod admission;
+// pub mod allergy;
+// pub mod immunization;
+// pub mod problem;
+// pub mod medication;
+// pub mod lab_result;
+// pub mod vital;
+// pub mod marital_status;
+// pub mod religion;
+// pub mod address;
+// pub mod contact_info;
+// pub mod eligibility;
+// pub mod veteran_status;
+// pub mod pow_status;
+// pub mod insurance_info;
+// pub mod employer_info;
+// pub mod patient_flag;
+// pub mod record_flag;
+// pub mod enrollment;
+// pub mod movement;
+// pub mod inpatient_data;
+// pub mod outpatient_data;
+// pub mod deceased_info;
+// pub mod patient_education;
+// pub mod patient_reminder;
+// pub mod patient_preference;
+// pub mod phone;
+// pub mod emergency_contact;

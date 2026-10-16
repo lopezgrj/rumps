@@ -6,6 +6,7 @@ src-tauri/gen/
 *.sqlite3-shm
 *.sqlite3-wal
 *.db
+/target/
 .DS_Store
 playwright-report/
 test-results/

@@ -1,0 +1,10 @@
+The main distributions worth comparing are:
+
+Distribution	What it is	Availability / usefulness
+VA FOIA VistA	VA-released VistA source and patches; closest baseline to the VA system	Available through the FOIA VistA archive. Best starting point if your target is VA VistA, but source availability does not guarantee an easy-to-run system. The VA VDL provides manuals.
+OSEHRA VistA / VistA-M	Community-maintained VistA patch and source tree, including accepted community contributions	Public source at WorldVistA/VistA on GitHub. Its README describes a patch-oriented source tree, so treat it as source for comparison—not automatically as a ready-to-run installation.
+WorldVistA EHR	Community distribution adapted for non-VA settings	See WorldVistA for distribution information. Useful if you want to compare community extensions and non-VA adaptations; verify which release and packages are currently available before choosing it as your baseline.
+IHS RPMS	Indian Health Service’s VistA-derived Resource and Patient Management System	See the IHS RPMS site. It’s a distinct system with its own packages and customizations, not simply another name for VA VistA. Include it if your API is meant to cover RPMS too.
+OpenVistA / vxVistA	Vendor-supported VistA-derived systems	These may require vendor access or a commercial engagement; verify current source, distribution, and licensing directly with the vendors. Don’t assume public download availability.
+
+Suggested comparison: start with VA FOIA VistA and OSEHRA/WorldVistA, then add RPMS if it’s in your intended scope. Compare their installed packages, FileMan dictionaries, RPCs, patches, and site customizations—not just their labels. Keep each distribution’s coverage separate in the target inventory; “all VistA” across these variants is a larger, less bounded requirement than full coverage of one specified installation.
